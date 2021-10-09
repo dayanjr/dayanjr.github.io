@@ -1,0 +1,77 @@
+body { 
+    color:black ; 
+    text-align: center;
+    /* text-align: justify; */
+   
+    
+}
+h1 { 
+    font-size: 50px;
+    color:white;
+    
+    
+} 
+
+h2 {
+    color: white;
+}
+h3 {
+    font-size: 15px;
+    background-color:pink;
+    width: 91%;
+    
+}
+h4 {
+    background-color: pink;
+    font-size: 15px;
+   width: 82%;
+    
+} 
+h5 {
+    background-color: pink;
+    font-size: 15px;
+    width: 101%;
+    
+    
+    
+}
+h6 {
+    background-color: pink;
+    font-size: 15px;
+    width: 101%;
+    }
+
+section {
+    background-color: pink;
+    font-size: 15px;
+}
+.latin {
+    color: #ffffff;
+    text-align: center;
+    margin: 100px 50px; 
+    padding:25px;
+    border:1px solid pink;
+    font-family: 'Ephesis', cursive;
+    font-size: 45px;
+}
+div { font-size: 50px;
+    color: white
+}
+h7 {
+    color: white
+} 
+h8 {
+    color:rgb(10, 10, 10)
+}
+h9 {
+    color:rgb(0, 0, 0)
+}
+h10 {
+    color:rgb(0, 0, 0)
+}
+div1 { color:white
+    font-size: 30px;
+}
+#hello {
+
+}
