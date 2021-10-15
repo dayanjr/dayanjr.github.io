@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
+
 p {
     margin: 35px;
 }
@@ -16,10 +18,11 @@ div.c {
 #content{ max-width: 1600px;
     margin: auto;
 }
-nav a{
+nav a {
     text-align: center;
-    color:black
-    text-decoration: none; 
+    color:black;
+    text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
    text-align: center; 
@@ -38,6 +41,10 @@ main section{
 }
 body{
     background-color: #fcfbfb;
+    font-family: 'Rock Salt', 'roboto',sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: rgba(20, 30, 13, .7);
@@ -52,6 +59,10 @@ nav a:hover{
     background-color: saddlebrown;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: slateblue;
@@ -64,14 +75,19 @@ nav a:hover{
 .msg{
     background-color: tomato;
     color: black;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: yellowgreen;
-    color:black
-    text-decoration:underline
+    color:black;
+    text-decoration: underline;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -84,4 +100,32 @@ footer a{
 }
 h3{
     text-decoration: underline;
+}
+.home-title {
+    font-family: 'Rock Salt', 'roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+} 
+.msg p {
+    font-size: 8em;
+    padding-bottom: 15px;
+}
+h2{
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+margin: 200px 0;
+}
+.card-img {
+    border: 10px  black; 
+
+}
+main section img {
+    box-sizing: border-box;
 }
