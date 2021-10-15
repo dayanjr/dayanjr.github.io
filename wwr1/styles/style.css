@@ -2,7 +2,6 @@
 
 p {
     margin: 35px;
-    font-size: 35px;
 }
 div.a {
     text-align: center;
@@ -108,7 +107,7 @@ h3{
     margin-top: 10px;
 } 
 .msg p {
-    font-size: 8em;
+    font-size: -6em;
     padding-bottom: 15px;
 }
 h2{
