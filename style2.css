@@ -31,7 +31,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .red2 {
-    width: 53%;
+    width: 116px;
     height: 100px;
     background-color: red;
     grid-column: 1/2;
@@ -52,10 +52,152 @@
     margin-top: -66px;
 }
 .blue2{
-    width: 53%;
+    width: 116px;
     height: 100px;
     background-color: blue;
     grid-column: 1/3;
     margin-left: 156px;
     margin-top: -64px;
+}
+.content3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 0px
+}
+.red3 {
+    width: 389px;
+    height: 100px;
+    background-color: red;
+    grid-column: 1/3;
+}
+.green3{
+    width: 116px;
+    height: 100px;
+    background-color: green;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.yellow3{
+    width: 116px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: 71px;
+    margin-top: 0px;
+}
+.blue3{
+    width: 389px;
+    height: 100px;
+    background-color: blue;
+    grid-column: 1/3;
+}
+.content4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 0px
+}
+.red4 {
+    width: 116px;
+    height: 300px;
+    background-color: red;
+    grid-column: 1/3;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.green4{
+    width: 116px;
+    height: 100px;
+    background-color: green;
+    margin-left: 100px;
+    margin-top: -301px;
+}
+.yellow4{
+    width: 116px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: -114px;
+        margin-top: -201px;
+}
+.blue4{
+    width: 116px;
+    height: 100px;
+    background-color: blue;
+    grid-column: 1/3;
+    margin-left: 102px;
+    margin-top: -108px;
+}
+.content5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 0px
+}
+.red5 {
+    width: 117px;
+    height: 36px;
+    background-color: red;
+    grid-column: 1/3;
+    margin-left: -3px;
+    margin-top: 61px;
+}
+.yellow5 {
+    width: 116px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: -4px;
+    margin-top: 0px;
+}
+.green5 {
+    width: 67px;
+    height: 55px;
+    background-color: green;
+    margin-left: -166px;
+    margin-top: 0px;
+}
+.blue5 {
+    width: 116px;
+    height: 34px;
+    background-color: blue;
+    grid-column: 1/3;
+    margin-left: -3px;
+    margin-top: 1px;
+}
+.content6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 0px
+}
+
+    .red6 {
+        width: 64px;
+        height: 50px;
+        background-color: red;
+        grid-column: 1/3;
+        margin-left: -3px;
+        margin-top: -8px;
+    }
+.yellow6 {
+    width: 50px;
+        height: 105px;
+        background-color: yellow;
+        margin-left: 63px;
+        margin-top: -60px; 
+}
+.green6 {
+    width: 57px;
+        height: 55px;
+        background-color: green;
+        margin-left: -262px;
+        margin-top: -11px;
+    
+}
+.blue6 {
+    width: 72px;
+        height: 82px;
+        background-color: blue;
+        grid-column: 1/3;
+        margin-left: 18px;
+        margin-top: -20px;
 }
