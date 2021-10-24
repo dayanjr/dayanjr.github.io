@@ -26,3 +26,36 @@
     background-color: blue;
     grid-column: 1/3;
 }
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.red2 {
+    width: 53%;
+    height: 100px;
+    background-color: red;
+    grid-column: 1/2;
+    margin-left: 31px;
+}
+.green2{
+    width: 116px;
+    height: 100px;
+    background-color: green;
+    margin-top: -75px; 
+    margin-left: 78px;
+}
+.yellow2{
+    width: 116px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: 113px;
+    margin-top: -66px;
+}
+.blue2{
+    width: 53%;
+    height: 100px;
+    background-color: blue;
+    grid-column: 1/3;
+    margin-left: 156px;
+    margin-top: -64px;
+}
