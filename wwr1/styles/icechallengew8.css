@@ -62,15 +62,46 @@
     margin-top: -35px;
     margin-left: 274px;
 }
+
 .btn1{
     background-color: rgb(78, 78, 255);
-    padding: 10px;
-    opacity: 0.9;
+    
+    
     color: whitesmoke;
     border-radius: 10px;
-    margin: 0px;
-    margin-left: 43%;
-    width: 190px;
-    height: 86px;
     
+    margin-top: -38px;
+    margin-left: 400px;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    
+    
+}
+.btn2{
+    background-color: rgb(78, 78, 255);
+
+    
+    
+    border-radius: 10px;
+    
+    margin-top: -51px;
+    margin-left: 700px;
+    width: 68px;
+    height: 50px;
+    text-align: center;
+  
+}
+.p4{
+    margin-top: -33px;
+    margin-left: 482px;
+}
+.material-icons-outlined1{ margin-top: 10px;
+    margin-left: 10px;
+
+}
+.material-icons-outlined2{
+    margin-top: 10px;
+    margin-left: 10px;
+
 }
