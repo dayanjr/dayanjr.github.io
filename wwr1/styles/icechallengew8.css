@@ -79,7 +79,7 @@
     
 }
 .btn2{
-    background-color: rgb(78, 78, 255);
+    background-color: rgb(102, 102, 102);
 
     
     
@@ -95,6 +95,7 @@
 .p4{
     margin-top: -33px;
     margin-left: 482px;
+    color: cornsilk;
 }
 .material-icons-outlined1{ margin-top: 10px;
     margin-left: 10px;
@@ -104,4 +105,13 @@
     margin-top: 10px;
     margin-left: 10px;
 
+}
+.example{
+    text-decoration: underline;
+}
+.p2{
+    font-weight: bold;
+}
+.b{
+    color: rgb(66, 66, 248);
 }
