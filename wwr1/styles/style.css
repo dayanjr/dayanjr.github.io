@@ -26,6 +26,7 @@ nav a {
 }
 #hero-msg h1{
    text-align: center; 
+   margin-bottom: 15px;
 }
 #hero-msg h4{
     text-align: center;
@@ -90,7 +91,6 @@ nav a:hover{
 footer{
     background-color: yellowgreen;
     color:black;
-    text-decoration: underline;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -103,15 +103,14 @@ footer{
 }
 .logo{
     width: 80px;
+    margin-top: 4px;
 }
 #hero-img{
     width: 100%;
 }
 footer a{
     text-decoration: none;
-}
-h3{
-    text-decoration: underline;
+    color: rgb(18, 20, 20);
 }
 .home-title {
     font-family: 'Rock Salt', 'roboto', sans-serif;
@@ -208,6 +207,9 @@ main section img {
 nav{
     display: flex;
     align-items: center;
+}
+footer h3 a:hover{
+    color: brown;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
