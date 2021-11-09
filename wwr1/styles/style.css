@@ -22,7 +22,7 @@ nav a {
     text-align: center;
     color:black;
     text-decoration: none;
-    padding: 35px;
+    padding: 0 63px;
 }
 #hero-msg h1{
    text-align: center; 
@@ -205,6 +205,10 @@ main section img {
    grid-template-columns: 130px 130px 130px 130px 130px 130px 130px 130px 130px 130px;
    
 }
+nav{
+    display: flex;
+    align-items: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -213,7 +217,7 @@ main section img {
     nav, footer {
         flex-direction: column;
     }
-    nav a {
+    nav a { text-align: center;
         display: block;
         padding: 15px;
     }
