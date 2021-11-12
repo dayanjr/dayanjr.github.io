@@ -211,6 +211,75 @@ nav{
 footer h3 a:hover{
     color: brown;
 }
+.alingment{ display: grid;
+    grid-template-columns: auto auto;
+    grid-area: auto;
+   
+
+}
+.subtext{
+    margin-top: -27px;
+    margin-left: 20px;
+   
+    font-size: 18px;
+}
+.textt{   margin-top: 112px;
+    margin-left: 220px;
+    font-size: 45px;
+
+}
+#alingment1{
+    grid-column: 2/3;
+}
+.rivers2{ box-shadow: 5px 5px 10px #666;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.rapids2{
+    box-shadow: 5px 5px 10px #666;
+    grid-column: 2/3;
+    /* margin-left: 20px;
+    margin-top: 126px; */
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.textt1{ font-size: 45px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.subtext1{ 
+    margin-left: 20px;
+    margin-top: 26px;
+    font-size: 18px;
+}
+#alingment2{ grid-row: 2/3;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-top: 26px;
+
+}
+.camping2{box-shadow: 5px 5px 10px #666;
+    width: 496px;
+    margin-left: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+.textt2{ font-size: 45px;
+    text-align: center;
+}
+.subtext2{
+    font-size: 18px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
