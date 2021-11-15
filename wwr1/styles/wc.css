@@ -57,3 +57,26 @@ body{
 .temp sup{
     font-size: .6em;
 }
+#weather-card .city {
+    grid-row: 6;
+    grid-column: 1/-1;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #868686;;
+    justify-self: center;
+}
+#weather-card .date{
+    font-size: .65em;
+    text-transform: uppercase;
+    font-weight: 300;
+    justify-self: center;
+    grid-column: 1/-1;
+    grid-row: 7;
+}
+#weather-card .date i{
+    font-size: 1.3em;
+    padding: 0 8px;
+}
+#weather-card .date span{
+    color:#88a3cc
+}
