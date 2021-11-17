@@ -190,7 +190,7 @@ input,textarea{
   border: 1px solid #999;
 }
 input:focus, textarea:focus {
-  border-color: #000;
+  border-color: rgb(43, 42, 42);
 }
 textarea{
   vertical-align: top;
