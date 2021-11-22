@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(10, 9, 70);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+img{
+    width: 434px;
+    height: 596px;
+}
+.text{ 
+    
+        margin-top: -92px;
+        padding: 133px;
+        margin-left: -162px;
+        font-size: 35px;
+        color: rgb(255, 231, 10);
+}
