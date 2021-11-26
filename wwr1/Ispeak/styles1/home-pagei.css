@@ -8,21 +8,6 @@ h1{
     padding: 20px;
     font-size: 50px;
 }
-p {
-    margin: 35px;
-}
-div.a {
-    text-align: center;
-}
-div.b {
-    text-align: left;
-}
-div.c {
-text-align: right
-}
-div.c {
-    text-align: justify;
-}
 #content{ max-width: 1600px;
     margin: auto;
 }
@@ -35,9 +20,6 @@ nav a {
 
 main section{
     text-align: center;
-}
-#background{
-    height: 585px;
 }
 body{
     background-color: #fcfbfb;
@@ -66,10 +48,7 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-.icon{
-    width: 80px;
-    padding-top: 10px;
-}
+
 .logo{
     width: 80px;
     margin-top: 4px;
@@ -81,14 +60,6 @@ footer a{
     color: rgb(18, 20, 20);
 }
 
-.msg p {
-    font-size: 15px;
-    padding-bottom: 15px;
-    grid-row: 6/7;
-}
-h2{
-    margin: 0;
-}
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -140,34 +111,6 @@ nav{
 }
 footer h3 a:hover{
     color: brown;
-}
-.subtext{
-    margin-top: -27px;
-    margin-left: 20px;
-   
-    font-size: 18px;
-}
-.textt{   margin-top: 112px;
-    margin-left: 220px;
-    font-size: 45px;
-
-}
-
-
-.textt1{ font-size: 45px;
-    margin-left: 20px;
-    margin-top: 26px;
-}
-.subtext1{ 
-    margin-left: 20px;
-    margin-top: 26px;
-    font-size: 18px;
-}
-.textt2{ font-size: 45px;
-    text-align: center;
-}
-.subtext2{
-    font-size: 18px;
 }
 .body-grid{
     display: grid;
