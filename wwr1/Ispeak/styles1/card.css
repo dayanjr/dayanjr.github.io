@@ -1,0 +1,29 @@
+img{
+    max-width: 100%;
+}
+.card{
+    width: 320px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px 0 0 3px;
+    background-color: white;
+}
+p{
+   font-family: sans-serif, Arial, Helvetica;
+   text-align: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.viewbutton{
+    border: 1px solid black
+}
+.editbutton{
+    border: 1px solid black
+}
+span{
+    margin-left: 205px;
+}
+article{
+    height: 367px;
+}
