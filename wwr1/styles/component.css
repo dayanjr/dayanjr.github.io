@@ -1,6 +1,7 @@
 .img-comp-container{
     position: relative;
-    height: 200px;
+    height: 700px;
+    width: 700px;
 }
 .img-comp-img{
     position: absolute;
