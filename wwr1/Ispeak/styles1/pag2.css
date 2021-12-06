@@ -35,6 +35,13 @@ body{
     font-size: 14px;
     margin: 0;
     padding: 0;
+    background-color: #003049;
+}
+main{
+    background-color: #003049;
+}
+p{
+    color: #fcfbfb;
 }
 /* -- complet header css -- */
 /* -- complet body css -- */
@@ -42,6 +49,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
 }
 .img-grid{
     display: grid;
@@ -53,14 +61,26 @@ body{
     width: 538px;
     height: 266px;
 }
+.img2{
+    width: 450px;
+}
+.section-1{
+    margin-left: 45px;
+}
+.section-2{
+    padding: 40px;
+    font-size: 27px;
+}
 /* -- complet body css -- */
+/* -- complet form css -- */
 .contact-box{
     width: 500px;
     background-color: #fff;
-    box-shadow: 0 0 20px 0 #999;
+    box-shadow: 0 0 20px 0 rgb(31, 30, 30);
     transform: translate(-50%,-50%);
     height: 520px;
-    margin-left: 620px
+    margin-left: 620px;
+    margin-top: 300px;
 }
 .form-title{
     text-align: center;
@@ -95,6 +115,7 @@ form{
     border:none;
     cursor: pointer;
 }
+/* -- complet form css -- */
 footer{
     background-color: #669bbc;
     color:black;
