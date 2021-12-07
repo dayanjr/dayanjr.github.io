@@ -2,6 +2,9 @@
 h1{
     font-family: "Open Sans"
 }
+.br{
+    font-weight: bolder;
+}
 .form-title{
     text-align: center;
     padding-top: 24px;
