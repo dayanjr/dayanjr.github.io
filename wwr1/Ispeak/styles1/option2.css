@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -- complet header css -- */
+header{ display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #669bbc;
+    color: black;
+}
+nav a {
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    padding: 0 63px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    margin-top: 4px;
+    border-radius: 39px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+body{
+    font-family: 'Rock Salt', 'roboto',sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #003049;
+}
+main{
+    background-color: #feffff;
+    margin: 90px;
+    height: 700px;
+}
+
+/* -- complet header css -- */
+/* -- complet form css --*/
+h1{
+  background-color: #669bbc;
+  text-align: center;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+p{
+    color: #d3d0d0;}
+    
+  #regForm {
+    background-color: #dddddd;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  input {
+      margin-bottom: 10px;
+    padding: 10px;
+    width: 96%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  .tab {
+    display: none;
+  }
+  .tab1{
+    display: none;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    margin-right: 9px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  .step.finish {
+    background-color: #04AA6D;
+  }
+  h3{
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 30px;
+  }
+  /* -- complet form css --*/
+  .section1{
+    margin-left: 175px;
+  }
+  .section2{
+    margin-left: 127px;
+  }
+footer{
+  background-color: #669bbc;
+  color:black;
+  padding: 25px 50px;
+  margin-top: -1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(18, 20, 20);
+}
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}

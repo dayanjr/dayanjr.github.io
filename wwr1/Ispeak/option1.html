@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles1/option1.css">
+<html>
+<body>
+  <header>
+    <a id="logo_link" href="index.html"> 
+        <img class="logo" src="styles1/img/510a7d11c04a4b6db343aded24148a00.png" alt="icon image">
+        </a>
+        <nav>
+            <a href="home-pagei.html">home</a>
+            <a href="pag2.html">page 2</a>
+            <a href="site-plan.html">site plan</a>
+            <a href="contact.html">contact us</a>
+        </nav>
+</header>
+<main>
+  <h1>title</h1>
+  <p>text 1</p>
+  <div class="home-grid">
+    <section class="section1"><img src="styles1/img/flags.jpg.jpg" alt=""></section>
+    <section class="section2"><img src="styles1/img/flags.jpg.jpg" alt=""></section>
+  </div>
+  <div class="container">
+    <div id="feedback"></div>
+    <form action="/wwr1/rivers.html" method="post">
+      <h3>Contact Us</h3>
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Brazil</option>
+          <option value="canada">Korea</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+    <script>
+      const feedbackElement =document.getElementById('feedback');
+      const formElement = document.forms[0];
+      formElement.addEventListener('submit', function(e) { e.preventDefault();feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+      feedbackElement.style.display = "block";
+      document.body.classList.toggle('moveDown');
+    })
+    </script>
+      </div>
+</main>
+<footer>
+  <h3>dry oar &copy; 2021 - dayan Frazao </h3>
+  <h3><a href="faq.html">F.A.Q</a></h3>
+  <h3><a href="site-plan.html">site plan</a></h3>
+  <h3><a href="contactus.html">contact us</a></h3>
+  <div class="social"> 
+      <a href="https://facebook.com" target="_blank">
+      <img src="styles1/img/facebook.png" alt="fb icon">
+  </a>
+  <a href="https://twitter.com" target="_blank">
+  <img src="styles1/img/twitter.png" alt="twitter icon">
+</a>
+<a href="https://instagram.com" target="_blank">
+<img src="styles1/img/instagram.png" alt="instagram icon"> 
+</a>
+</footer>
+</body>
+</html>
