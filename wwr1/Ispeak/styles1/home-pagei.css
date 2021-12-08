@@ -128,7 +128,7 @@ main section img {
     border-radius: 5px;
 }
 .book:hover{
-    opacity: .6;
+    background-color: rgb(95, 95, 235);
 }
 nav{
     display: flex;
