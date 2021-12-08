@@ -90,6 +90,10 @@ nav a:hover{
     padding: 0 16px;
     border-radius: 15px;
 }
+.book:hover{
+    color: rgb(16, 16, 70);
+    background-color: aquamarine;
+}
 /* -- complet body css -- */
 /* -- complet form css -- */
 .contact-box{
