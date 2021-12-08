@@ -43,6 +43,11 @@ main{
 p{
     color: #d3d0d0;
 }
+nav a:hover{
+    background-color: rgba(20, 30, 13, .7);
+    color: black;
+    text-decoration: none;
+}
 /* -- complet header css -- */
 /* -- complet body css -- */
 .home-grid{
@@ -58,11 +63,13 @@ p{
     padding: 20px;
 }
 .img1{
-    width: 538px;
-    height: 266px;
+    width: 738px;
+    height: 366px;
+    border-radius: 10px;
 }
 .img2{
-    width: 450px;
+    width: 500px;
+    border-radius: 10px;
 }
 .section-1{
     margin-left: 45px;
@@ -70,6 +77,11 @@ p{
 .section-2{
     padding: 40px;
     font-size: 27px;
+}
+.book{
+    margin-left: 90px;
+    text-decoration: none;
+    color: aquamarine;
 }
 /* -- complet body css -- */
 /* -- complet form css -- */
