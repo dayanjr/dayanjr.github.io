@@ -35,7 +35,7 @@ header{ display: grid;
 }
 nav a:hover{
     background-color: rgba(20, 30, 13, .7);
-    color: black;
+    color: #fdf0d5;
     text-decoration: none;
 }
 

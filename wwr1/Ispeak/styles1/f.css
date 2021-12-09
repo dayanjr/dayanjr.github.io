@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -- complet header css -- */
+header{ display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #669bbc;
+    color: black;
+}
+nav a {
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    padding: 0 63px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    margin-top: 4px;
+    border-radius: 39px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+body{
+    background-color: #fdf0d5;
+    font-family: 'Rock Salt', 'roboto',sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #fdf0d5;
+}
+p{
+    color: #003049;
+    font-size: 30px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    padding: 25px;
+}
+nav a:hover{
+    background-color: rgba(0, 0, 5, .7);
+    color: #fdf0d5;
+    text-decoration: none;
+}
+/* -- complet header css -- */
+h1{
+    text-align: center;
+    color: #A42212;
+    background-color: #669BBC;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgb(31, 30, 30);
+}
+.title{
+    margin: 23px 300px;
+    font-size: 40px;
+}
+.text{
+    margin: 0px 120px;
+    font-size: 30px;
+}
+footer{
+    background-color: #669bbc;
+    color:black;
+    padding: 25px 50px;
+    margin-top: 87px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(18, 20, 20);
+}
+
