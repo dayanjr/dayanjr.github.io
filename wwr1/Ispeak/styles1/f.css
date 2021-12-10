@@ -59,6 +59,10 @@ h1{
     border-radius: 20px;
     box-shadow: 0 0 5px 0 rgb(31, 30, 30);
 }
+.img{
+    width: 1263px;
+    height: 530px;
+}
 .title{
     margin: 23px 300px;
     font-size: 40px;
